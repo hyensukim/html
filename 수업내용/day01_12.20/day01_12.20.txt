@@ -1,0 +1,135 @@
+★조별과제
+ - 유명 사이트 1개 -> 조원 각 페이지.
+ - 각 조원별 - 깃 브렌치에 각 페이지 생성. (제한 12/ 27까지) - master merge(팀장)
+ex) 뉴스 페이지, 헬스 페이지
+
+0. Visual Studio Code 설치
+
+1. HTML
+ - Hyper Text Markup Language
+ - 웹페이지를 만드는 대표적인 마크업 언어.
+ - 웹페이지의 구조를 표현.
+ - 여러 구성요소로 구성.
+ - 규칙
+  -. 태그(구성요소)
+<태그명> : 열림, 내용 <\태그명> : 닫힘
+ <html> ~ <\html>
+  -. 단독 태그
+<태그명 />
+<태그명 >
+
+태그 = Element(요소)
+
+ - 구조
+<!DOCTYPE html> -> HTML 버전(HTML5으로 인식)
+<html>
+	<head>
+	 사이트의 정보 : 제목, .../ 보이지 않는 부분을 정의.
+	<\head>
+	<body>
+	 실제 출력 부분	 
+	<\body>
+<\html>
+
+F5 -> 실행
+
+ - 속성(attributes)는 HTML 태그(요소)에 대한 추가적인 정보를 제공.
+  -. HTML의 정해진 기능을 수행하는 속성.
+<meta name = "ketword" content = "키워드!" />
+
+ - 링크
+  -. a 태그
+  -> href : 주소
+ - 이미지
+  -. img
+   -> src : 이미지 경로 
+
+ - data-속성값="값"
+
+ - HTML 문서
+
+2. HTML 헤더(Heasings) 태그
+ - h1 ~ h6 : 숫자가 작을수록 크기는 커진다. h1이 가장 큼
+ - HTML 문단 태그
+  -. p : 문단 태그 단위이다 보니, p태그 마다 공백이 발생.
+
+... 
+
+3. ★HTML 링크(Links)
+a
+ - href : 주소'
+ - target : 이동할 웹브라우저의 창
+  -. 이동할 웹브라우저의 창(window)
+  -. _self : 현재 HTML 문서가 출력되는 창
+  -. _blank : 새창
+  -. parent : 부모창
+  -. _top : 가장 상위창
+
+iframe - 내부 창(자식 창)
+ - src : "출력할 html 주소"
+
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body></body>
+</html>
+
+4. 경로
+ - 절대경로
+ - 상대경로
+  -. 현재 열려 있는 파일 경로 기준.
+  -. .. : 상위 경로 이동.
+
+5.Table
+ - thead,tbody, tfoot
+  -. tr : table row : 행
+  -. th : 항목 열
+  -. td : 열
+
+6. Lists
+ - ul(unordered list)
+  -. li
+
+ - ol(ordered list)
+  -. li
+
+7. style 태그
+
+8. 설명리스트(dl, Description List) 태그
+ - 용어에 대한 설명을 위한 구조로 구성되어 있는 리스트
+ - dt
+ - dd
+ - 항목 : 내용
+
+HTML 문서
+ 글 : Inline 요소
+	span
+	- 공간 X(자간, 줄간만 존재)
+	- 줄개행 X 일렬로 나열
+	- 너비, 높이 X
+	- 좌우 외부 여백
+	- 네부 여백
+
+
+ 문단 : Block 요소
+	p
+	- 공간 O
+	- 줄개행 O
+	- 너비, 높이 O
+	- 외부, 내부 여백 O
+ div
+
+ 클래스(class)
+ - CSS : 요소를 선택(복수개)
+ - JavaScript : 요소 선택(복수개)
+ 
+ 아이디(id)
+ - CSS : 요소를 선택(단일)
+ - Javascript : 요소 선택(단일)
+
+9. script 태그
+ - 자바 스크립트를 해석해주는 태그
+ - 자바 스크립트 : 동적인 요소를 추가해준다.
+
+HTML 시멘틱 요소(Semantic Elements)

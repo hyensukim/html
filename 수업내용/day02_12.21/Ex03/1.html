@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입</title>
+    </head>
+    <body>
+        <form method="POST" action="2.html">
+            <input type="hidden" name="mode" value="join">
+            <dl>
+                <dt>아이디</dt>
+                <dd>
+                    <input type="text" name="memId" placeholder="아이디 입력!"
+                    value="user01" readonly>
+                </dd>
+            </dl>
+            <dl>
+                <dt>비밀번호</dt>
+                <dd>
+                    <input type="password" name="memPw" placeholder="비밀번호 입력!">
+                </dd>
+            </dl>
+            <dl>
+                <dt>회원명</dt>
+                <dd>
+                    <input type="text" name="memNm" placeholder="회원명 입력!"
+                    value="사용자01" disabled>
+                </dd>
+            </dl>
+            <dl>
+                <dt>학년</dt>
+                <dd>
+                    <label>
+                    <input type="radio" name="grade" value="초등학생" checked>초등학생
+                    </label>
+                    <label>
+                    <input type="radio" name="grade" value="중학생">중학생
+                    </label>
+                    <label>
+                    <input type="radio" name="grade" value="고등학생">고등학생
+                    </label>
+                </dd>
+            </dl>
+            <dl>
+                <dt>취미</dt>
+                <dd>
+                    <input type="checkbox" name="hobby" value="축구" id="hobby1">
+                    <label for="hobby1">축구</label>
+
+                    <input type="checkbox" name="hobby" value="농구" id="hobby2">
+                    <label for="hobby2">농구</label>
+
+                    <input type="checkbox" name="hobby" value="야구" id="hobby3">
+                    <label for="hobby3">야구</label>
+
+                    <input type="checkbox" name="hobby" value="피아노" checked id="hobby4">
+                    <label for="hobby4">피아노</label>
+                </dd>
+            </dl>
+            <dl>
+                <dt>이메일</dt>
+                <dd>
+                    <input type="email" name="email"><br>
+                </dd>
+                <br>
+            <dl>
+                <dt>자기소개</dt>
+                <dd>
+                    <textarea name="introduction" rows="7" cols="30">자기소개 입력함..
+                    </textarea>
+                </dd>
+            </dl>
+            <dl>
+                <dt>좋아하는 언어</dt>
+                <dd>
+                    <select name="lang" size="4" multiple>
+                        <option value="java">자바</option>
+                        <option value="c">C언어</option>
+                        <option value="python"selected>파이썬 </option> 
+                        <option value="kotlin">코틀린</option>
+                    </select>
+                </dd>
+            </dl>
+            <input type="reset" value="다시작성">
+            <input type="submit" value="회원가입">
+            <br><br>
+            <button type="submit">회원가입</button>
+            <button type="reset">재작성</button>
+
+        </form>
+    </body>
+</html>

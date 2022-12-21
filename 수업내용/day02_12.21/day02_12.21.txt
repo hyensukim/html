@@ -1,0 +1,131 @@
+HTML
+양식(form)
+<form>
+</form>
+ - method : 전송방식 -> GET,POST(JSP) 
+ -. GET : 데이터가 URL 방식으로 전송되는 것.
+ -. POST : body에 싣어서 전송.
+ - action :  양식을 제출할 URL
+ - autocomplete : false - 자동완성 중단
+ - target : 양식을 제출할 브라우저 창
+  -. _self : 현재창, 기본값
+  -. _blank : 새창
+  -. _parent : 부모창
+  -. _ top : 가장 상위창
+  -. iframe name
+
+- input 요소(태그)
+ -. type : 입력 받는 형식을 정하는 속성.
+  -> text : 한줄 입력
+  -> radio : 라디오 버튼 (선택)
+  -> checkbox : 체크 박스(여러개 선택)
+  -> submit : 양식 제출 버튼
+  -> reset : 양식 초기화
+
+  -> password : 비밀번호 입력(양식 제한)
+  -> hidden : 값을 숨길 때 사용.(양식 X, 값만 전송)
+
+  -> email : 이메일 형식으로 입력.(양식 제한)
+  -> number : 숫자만 입력.(양식 제한)
+  -> color : 색상(양식 제한)
+  -> date : 날짜(양식 제한)
+
+ -. name 속성
+  -> 실제 서버에서 데이터를 받기위한 참조명
+ -. 제출처에서 데이터 항목 확인 이름
+
+- value 속성
+ -. 입력 항목에 값을 지정할 때
+
+- textarea 요소 : 여러줄 입력
+ -. name
+ -. rows : 행
+ -. cols : 열
+
+- select
+ -. name
+ -. size
+ -. multiple : 중복 선택
+ -. option : select에서 선택하는 항목, value
+  -> selected : 항목 선택
+
+- placeholder : "안내문구"
+
+- checkbox,radio 
+ -. checked 추가 : 체크 전 기본값으로 체크 표시를 해줌.
+ -. <label>~</label>
+ -. <label for="id"> ~ </label>
+
+- readonly : 읽기 전용
+- disabled : 비활성화 -> 전송 자체 X
+
+- button
+  -. type
+   -> button : 일반 버튼
+   -> submit : 제출 버튼
+   -> reset : 초기화 버튼
+
+
+<!DOCTYPE html>
+<html> 
+	<head></head>
+	<body></body>
+</html>
+
+<!DOCTYPE html>
+<html> 
+	<head></head>
+	<body>
+        <ul>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li>메뉴5</li>
+            <li>메뉴6</li>
+        </ul>
+    </body>
+</html
+
+div
+span
+====================================================================
+
+CSS
+
+ - 속성
+ -. style = "CSS 속성 ..."
+ - 태그
+ <style> 스타일 속성 </style>
+ -★ 파일
+  -> <link rel="stylesheet" type="text/css" href="css 파일 경로">
+
+선택자
+ - 태그명(범위 내 모두 적용 == 복수개) ex) body{background : red}
+
+ - 클래스명(복수개)
+  -. .(마침표) .클래스 속성명{CSS 속성;}
+  -. 복수 사용.(<-> id(하나만 사용)
+
+ - 아이디명(단수, 한개)
+  -. id로 사용, 하나 사용
+  -. #(샾) #아이디명{CSS 속성;}
+
+CSS 적용 우선순위
+
+ - 적용범위가 작을수록 우선순위가 높고 적용범위가 많을수록 우선순위가 낮다.
+ - 태그 > 클래스 > 아이디 > 스타일 속성
+
+
+
+
+
+
+
+
+
+
+
+
+
+
