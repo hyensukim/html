@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+	<head></head>
+	<body>
+        <!--
+            ★중복으로 적용 시에 적용범위(적용되는 요소 갯수) 많을수록 우선순위가 낮아지고
+              적용범위가 적을수록 우선순위가 높다.★
+        -->
+        <style>/*태그명 - 범위내(복수)*/
+            li{ color:blue; }
+            .menu{color:orange;}/*클래스명 - 복수*/
+            #menu4{color:red;}/*아이디명 - 단일*/
+            #menu3{color:red;}
+            .menu3{color:pink !important;}
+        </style>
+        <ul>
+            <li>메뉴1</li>
+            <li class="menu">메뉴2</li><!---->
+            <li class="menu menu3" id="menu3" style="color : gray;">메뉴3</li>
+            <li id="menu4">메뉴4</li>
+            <li>메뉴5</li>
+            <li>메뉴6</li>
+        </ul>
+    </body>
+</html
