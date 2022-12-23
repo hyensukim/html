@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <style>
+            .box{width:100px; height:100px; margin-left: 100px; 
+            margin-top:100px; background:orange;}
+            .box1{position:relative; left:-100px; top:-100px;}
+            .box2{position:absolute; left:400px; bottom:100px; 
+                background:blue;}
+            .wrap{position:relative; width:700px; height:10000px;
+            border: 1px solid red; margin-top:300px; margin-left:100px;}
+            .box3{position:fixed; left:100px; top:100px; 
+                background:green;}
+        </style>
+        <div class="box box1"></div>
+        <div class="wrap">
+            <div class="box box2"></div>
+        </div>
+        <div class="box box3"></div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <style>
+            #check:checked {display: none; }
+            .text {background: pink;}
+            .text:read-only {background:gray;}
+            #box1 {width:100px; height:100px; background:orange;}
+            #box1:hover {width : 200px; height:200px;}
+        </style>
+        
+        <input type="checkbox" id="check"><!--체크하면 사라짐-->
+        <br>
+        <input type="text" class="text">
+        <input type="text" class="text" readonly><!--읽기전용 상태-->
+        <br>
+        <div id="box1"></div>
+    </body>    
+</html>
