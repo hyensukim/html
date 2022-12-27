@@ -1,0 +1,79 @@
+/** font 기본 설정 S */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+*{  font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 19px;
+    color: #6f6f6f;}
+/** font 기본 설정 E */
+/** form 초기화 S*/
+a{ text-decoration: none; margin: 0px;}
+div{ margin: 0px;}
+ul{ list-style-type: none; margin: 0px;}
+ol{ list-style-type: none; margin: 0px;}
+dl, dt, dd, p { margin: 0px; color: #303030;}
+h1, h2, h3, h4, h5, h6 { margin: 0px;}
+/** form 초기화 E*/
+
+/** header S*/
+header{ width: 1473px; height: 148;}
+.header_In{ width: 940px; height: 72px; margin: 0 auto; display: flex; justify-content: space-between; margin-top: 15px;}
+.left{ width: 192px; height: 76px;}
+.logo{ width: 66px; height: 55px; margin-top: 5px;}
+.right{ width: 260px; height: 22px; display: flex; justify-content: space-around;}
+/** header E*/
+
+/** nav S*/
+nav{ width: 1473px; height: 148;}
+.bar{ width: 940px; height: 60px; margin: 0 auto; display: flex; justify-content: space-around;
+     align-items: center; margin-top: 10px;}
+/** nav E*/
+
+hr{ background: rgb(164, 2, 2); border: solid 0.5px rgb(164, 2, 2);}
+
+/** main-left S*/
+main{ width: 940px; height: 1094px; margin: 0 auto;}
+.mid{ display: flex; padding: 46px 0px 100px 0px;}
+.left_section{ width: 190px; height: 438px; margin-right: 50px;}
+.quick_menu{ width: 190px; height: 195px; margin-bottom: 42px; display: flex; flex-direction: column;}
+.phone_picture{ padding: 24px 0px 25px 0px; border-bottom: solid 1px #CCCCCC;}
+/** main-left E*/
+
+/** main-right-1 S*/
+.right_section{ width: 700px; height: 948px;}
+.name{ padding: 20px 0px 34px 0px;}
+.info01{ width: 700px; height: 340px; display: flex; margin-bottom: 40px;}
+.explanation{ width: 280px; height: 224px; padding: 60px 0px 0px 20px;}
+.SNS{ width: 280px; height: 22px; }
+.p1{width: 280px; height: 56px; margin-top: 20px; color: #303030;}
+#title01{ font-size: 32px; margin-bottom: 5px; display: block; line-height: 32px; font-weight: 800;}
+.p2{width: 280px; height: 76px; margin: 20px 0px 30px; font-size: 14px; color: #303030;}
+/** main-right-1 E*/
+/** main-right-2 S*/
+.info02{ width:700px; height: 211px;}
+.tt2{ width: 700px; height: 19px; margin-bottom: 15px; }
+#title02{font-size: 16px; font-weight: 700;}
+/** main-right-2 E*/
+/**main-table S*/
+table{ margin:0px; width:700px; height:117px; border:2px solid #303030; border-right:none; border-left:none;}
+.table_inner1 th{ border-bottom: 1px solid #d9d9d9; 
+    color: #303030; padding: 10px 20px 12px 30px; line-height: 16px;}
+.thead tr th{ border-left: 1px solid #d9d9d9; padding: 10px 0px 12px;
+     text-align: center;}
+.tr1 td{text-align: center; padding: 10px 20px 10px; 
+    border-left: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; line-height: 16px;}
+#noside{border-left:none;}
+/**main-table E*/
+/**main-allergy_box S*/
+.allergy_box{width: 700px; height: 19px; margin-top: 20px;}
+.p3{font-weight: bold;}
+/**main-allergy_box E*/
+/**main-mini_menu S*/
+.mini_menu{width: 700px; height: 510px; margin-top: 40px;}
+.mini_menu a img{width: 98px; height: 83px;}
+.mini_menu_bar{ width: 700px; height: 67px;}
+/**main-mini_menu E*/
+
+/**footer S*/
+.footer{padding-top: 33px; background-color:red;}
+/**footer E*/
