@@ -1,0 +1,67 @@
+<!DOCTYPE htnl>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>할리스</title>
+    </head>
+    <body>
+        <style>
+            div{font-size:5px;}
+            .ul1{font-size:1rem; color:red; font-weight: bolder; float: left; text-align:left;}
+            .ul1 > li{ float:left; margin:5px;} 
+            .ul1 > #li2{color:gray;}
+            .ul2{font-size:1rem; color:gray; font-weight:bolder; float:right; text-align:right;}
+            .ul2 > li{float:left; margin:5px;}
+            #container:after {content:""; display:block; clear:both;}
+            .ul3{font-size:2rem; color:black;font-weight:bolder;text-align:justify;}
+            .ul3 > li{float:left; margin:10px; position:relative; left:200px;}
+            .ul3:after { content: ''; clear: left; display: block; }/*수정함.*/
+            
+
+
+            .logo{text-align:center;}
+
+        </style>
+        <!--header-->
+        <div class="header">
+            <!--header_left-->
+            <div>
+                <ul class="ul1"; style="list-style-type:none";>
+                    <li id="li1">창업설명회</li>
+                    <li id="li2">기업특판</li>
+                </ul>
+                <!--header_left-->
+
+                <!--header_right-->
+                <ul class="ul2"; style="list-style-type:none";>
+                    <li>멤버십 로그인</li>
+                    <li>멤버십 가입</li>
+                    <li>고객센터</li>
+                    <li>English</li>
+                    <li>中文</li>
+                </ul>
+            </div>
+            <!--header_right-->
+            <div id="container";></div>
+            <!--logo-->
+            <div class="logo";>
+                <img src="https://www.hollys.co.kr/websrc/images/layout/logo_210302.gif"; title="logo"; alt="할리스로고";/>
+            </div>
+            <!--logo-->
+            <!--bar-->
+            <ul class="ul3"; style="list-style-type:none";>
+                <li>Menu</li>
+                <li>HOLLYS Mall</li>
+                <li>Membership</li>
+                <li>HOLLYS News</li>
+                <li>Store</li>
+                <li>HOLLYS is</li>
+            </ul>
+            <!--bar-->
+        </div>
+        <!--header-->
+        <div>
+            <hr style="background: red; border:0; height:1px;">
+        </div>
+    </body>
+</html>
