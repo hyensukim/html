@@ -7,6 +7,7 @@
     color: #6f6f6f;}
 /** font 기본 설정 E */
 /** form 초기화 S*/
+body{ margin : 0px;}
 a{ text-decoration: none; margin: 0px;}
 div{ margin: 0px;}
 ul{ list-style-type: none; margin: 0px;}
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0px;}
 /** form 초기화 E*/
 
 /** header S*/
-header{ width: 1473px; height: 148;}
+header{ height: 148;}
 .header_In{ width: 940px; height: 72px; margin: 0 auto; display: flex; justify-content: space-between; margin-top: 15px;}
 .left{ width: 192px; height: 76px;}
 .logo{ width: 66px; height: 55px; margin-top: 5px;}
@@ -24,15 +25,15 @@ header{ width: 1473px; height: 148;}
 /** header E*/
 
 /** nav S*/
-nav{ width: 1473px; height: 148;}
+nav{ height: 148;}
 .bar{ width: 940px; height: 60px; margin: 0 auto; display: flex; justify-content: space-around;
      align-items: center; margin-top: 10px;}
 /** nav E*/
 
-hr{ background: rgb(164, 2, 2); border: solid 0.5px rgb(164, 2, 2);}
+hr{ background: #ba000c; border: solid 0.5px #ba000c;}
 
 /** main-left S*/
-main{ width: 940px; height: 1094px; margin: 0 auto;}
+main{ width: 940px; /** height: 1094px; */ margin: 0 auto;}
 .mid{ display: flex; padding: 46px 0px 100px 0px;}
 .left_section{ width: 190px; height: 438px; margin-right: 50px;}
 .quick_menu{ width: 190px; height: 195px; margin-bottom: 42px; display: flex; flex-direction: column;}
@@ -40,7 +41,7 @@ main{ width: 940px; height: 1094px; margin: 0 auto;}
 /** main-left E*/
 
 /** main-right-1 S*/
-.right_section{ width: 700px; height: 948px;}
+.right_section{ width: 700px; /** height: 948px;*/}
 .name{ padding: 20px 0px 34px 0px;}
 .info01{ width: 700px; height: 340px; display: flex; margin-bottom: 40px;}
 .explanation{ width: 280px; height: 224px; padding: 60px 0px 0px 20px;}
@@ -69,11 +70,21 @@ table{ margin:0px; width:700px; height:117px; border:2px solid #303030; border-r
 .p3{font-weight: bold;}
 /**main-allergy_box E*/
 /**main-mini_menu S*/
-.mini_menu{width: 700px; height: 510px; margin-top: 40px;}
-.mini_menu a img{width: 98px; height: 83px;}
+.mini_menu{width: 700px; height: 510px; margin-top: 40px; display: flex; flex-wrap: wrap; }
+.mini_menu a { width: calc(100% / 7); text-align: center; }
+.mini_menu a img{width: 98px; height: 83px; display: block; margin: 0 auto; }
 .mini_menu_bar{ width: 700px; height: 67px;}
 /**main-mini_menu E*/
+/** floating */
+.floating{ position: fixed; top: 31px; left: 50%; margin-left:500px; z-index: 100;}
 
 /**footer S*/
-.footer{padding-top: 33px; background-color:red;}
+footer{width :100%; min-width: 940px; height: 148px; padding : 33px 0 0 0; background: #ba000c; font-size: 11px;}
+.footer_inner{ width: 940px; margin: 0 auto; line-height: 14px; overflow: hidden;}
+.footer_in_top{ display:flex; flex-wrap: wrap;}
+.footer_in_top a{ background: url(./images/bg_footer_bar01.gif) right 2px no-repeat; padding: 0 8px 0 3px; color: #faeff0;
+font-weight: bold;}
+.footer_in_top .last{background: none;}
+.footer_in_bottom{ margin-top:23px;}
+.footer_in_bottom p{ color:#de898e; line-height: 16px; word-spacing:-1px;}
 /**footer E*/
