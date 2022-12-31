@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+* { font-family: 'Nanum Gothic', sans-serif; 
+    box-sizing:border-box; 
+    font-size: 12px;
+    line-height: 19px;
+    color: #6f6f6f; }
+body {margin: 0px; padding: 0px;}
+a { text-decoration: none; margin: 0px;}
+div {margin: 0px;}
+ul, li, ol{list-style: none; margin: 0;}
+dl, dt, dd, p, h1 {margin: 0;}
+.wrap{width: 1519px; height: 1373px; position: relative; min-height: 100%;}
+
+
+
+/*-- header S--*/
+header{height: 148px; min-width: 940px; border-bottom: 2px solid #ba000c; }
+.header_sub{width: 940px; height: 142px; margin: 0 auto; position: relative;}
+.logoHollys {width: 133px; height: 72px; margin: 0 auto 0; padding: 17px 0 0; display: block;}
+.hollys_logo{width: 66px; height: 55px; vertical-align: top;}
+.header_sub .util {width: 260px; height: 22px; overflow: hidden; position: absolute; top: 17px; right: 0px; padding-left: 0px;}
+.util_01 {width: 60px; height: 19px;float: left; margin-right: 12px; margin-top: 3px; }
+.login {width: 60px; height: 10px; vertical-align: top; }
+.util_02 {width: 51px; height: 19px; float: left; margin-right: 12px; margin-top: 3px;}
+.join {width: 51px; height: 10px; vertical-align: top;}
+.util_03 {width: 38px; height: 19px; float: left; margin-right: 12px; margin-top: 3px;}
+.customer {width: 38px; height: 10px; vertical-align: top;}
+.util_04 {width: 40px; height: 19px; float: left; margin-right: 12px; margin-top: 3px;}
+.English{width: 40px; height: 12px; vertical-align: top;}
+.util_05 {width: 23px; height: 19px; float: left; margin-right: 0px;  margin-top: 3px;}
+.chinese{width: 23px; height: 12px; vertical-align: top;}
+
+.header_sub .qickBanner {width: 192px; height: 76px; overflow: hidden; position: absolute; top: 0; left: 0px; padding-left: 0px;}
+.franchise {width: 99px; height: 76px; margin-top: 0px; float: left; margin-right: 12px;}
+.fran {width: 99px; height: 76px; vertical-align: top;}
+.forB2B {width: 69px; height: 19px; margin-top: 21px; margin-right: 12px; float: left;}
+.b2b {width: 69px; height: 11px; vertical-align: top;}
+
+.header_sub .nav {width: 940px; height: 60px; overflow: hidden; margin: 10px 0 0 0; padding-left: 0px;}
+.nav01, .nav02, .nav03, .nav04, .nav05 {width: 156px; height: 60px; float: left; text-align: center; box-sizing: border-box; padding-top: 17px;}
+.nav06 {width: 156px; height: 60px; float: left; text-align: center; box-sizing: border-box; margin-right: 0px; padding-top: 17px; }
+.menu {width: 47px; height: 18px;}
+.mall{width: 104px; height: 18px; } 
+.membership {width: 104px; height: 18px;}
+.news {width: 115px; height: 18px;}
+.store {width: 43px; height: 18px;}
+.hollys_is {width: 82px; height: 18px;}
+/*-- header E--*/
+
+
+
+
+/*-- main left_section S--*/
+main {width: 940px; height: 1418px; position: relative; margin: 0 auto; } 
+.content{width: 940px; height: 1272px; padding-top: 46px; padding-bottom: 100px; position: relative; margin: 0 auto; overflow: hidden;}
+.left_section {width: 190px; height: 271px; float: left; margin-right: 50px;}
+.left_tit {width: 190px; height: 28px; margin: 0 0 42px 0;padding: 0; }
+.left01 {width: 190px; height: 23px; padding: 0 0 5px 0; }
+.store_serch {width: 87px; height: 23px; vertical-align: top;}
+.left_mem {width: 190px; height: 200px; margin: 0; padding: 0px; border-bottom: 1px solid #d9d9d9;}
+.left02 {width: 190px; height: 21px; margin: 0px; padding: 0px;}
+.membership{width: 87px; height: 16px; vertical-align: bottom; margin-bottom: 5px;}
+.left03{width: 190px; height: 35px; max-width: 0px; padding: 0px}
+.hollys_mall {width: 170px; height: 30px; vertical-align: bottom; margin-bottom: 5px;}
+.left04{width: 190px; height: 95px; padding: 24px 0 25px 0;}
+.mem_crown{width: 190px; height: 90px; vertical-align: bottom; margin-bottom: 5px;}
+/*-- main left_section E--*/
+
+/*-- main map section S--*/
+.mid_section{width: 700px; height: 1272px; float: left;}
+.location{width: 700px; height: 19px;}
+.title{width: 700px; height: 37px; margin: 16px 0 60px 0;}
+.store_title{width: 141px; height: 37px; vertical-align: top;}
+.field{width: 700px; height: 1140px; margin: 0; padding: 0;}
+.field_sub{width: 700px; height: 482px; overflow: hidden; margin: 0 0 5px 0; padding: 0px;}
+.fieldTop{width: 700px; height: 480px; margin-bottom: 5px; overflow: hidden; margin: 0 0 40px 0;}
+.map{width: 429px; height: 433px; float: left; margin: 0 50px 0 0; position: relative; }
+.map_kor{width: 429px; height: 433px; vertical-align: top;}
+/*-- main map section E--*/
+
+/*-- main serch section S--*/
+.serchForm{width: 200px; height: 422px; float: left; padding:10px 0 0 0;}
+.subTitle{width: 200px; height: 22px; margin-bottom: 20px; }
+.sub_store{width: 78px; height: 22px; vertical-align: top;}
+
+.serchTool{width: 200px; height: 370px; padding-left: 0px;}
+.tool01 {width: 200px; height: 93px; margin-bottom: 10px;}
+.toolBox{width: 200px; height: 93px; margin: 0px; padding: 0px;}
+.tool01_tit{width: 200px; height: 19px; margin-bottom: 10px; font-size: 14px; font-weight: normal; color: #303030;}
+.cityTool_sido{width: 200px; height: 27px; margin-bottom: 10px; }
+.cityTool_gugun{width: 200px; height: 27px; margin-bottom: 10px;}
+.formSelect01, .formSelect02{width: 180px; height: 27px; vertical-align: top; }
+
+.tool02{width: 200px; height: 81px;margin-bottom: 0px; padding-bottom: 15px;}
+.toolBox2{width: 200px; height: 71px; margin: 0px; padding: 0px;}
+.tool02_tit{width: 200px; height: 34; padding-top: 15px; margin-bottom: 10px; font-size: 14px; font-weight: normal; color: #303030; }
+.store_service{width: 200px; height: 27px; margin-bottom: 10px; }
+.serch{width: 135px; height: 25px; border: 1px solid #afafaf; padding: 0 0 0 5px; line-height: 26px;}
+
+.tool03{width: 200px; height: 171px; margin-bottom: 10px;}
+.tool02_tit{width: 200px; height: 34px; margin-bottom: 10px; font-size: 14px; font-weight: normal; color: #303030; padding-top: 15px;}
+.toolBox3{width: 350px; height: 132px; overflow: hidden; padding-left: 0px; }
+.drive{width: 70px; height: 53px; float: left; margin-bottom: 10px; text-align: center;}
+.car{width: 27px; height: 27px; vertical-align: top; }
+.pac01{width: 70px; height: 19px; position: relative; margin: 7px 0 0 0; padding-left: 16px; text-align: left;}
+.carBox{width: 14px; height: 14px; position: absolute; top: 3px; left: 0px; margin: 0; padding: 0;}
+.carKor{width: 41px; height: 13px; text-align: left;}
+.terrace{width: 70px; height: 53px; float: left; text-align: center; margin-bottom: 10px;}
+.terr{width: 31px; height: 27px; vertical-align: top;}
+.pac02{width: 70px; height: 19px; position: relative; margin: 7px 0 0 0; padding-left: 16px; text-align: left;}
+.terrBox{width: 14px; height: 14px; position: absolute; top: 3px; left: 0px; margin: 0; padding: 0;}
+.all_day{width: 70px; height: 56px; float: left; text-align: center; margin-bottom: 10px;}
+.all_D{width: 30px; height: 30px; vertical-align: top;}
+.pac03{width: 70px; height: 19px; padding-left: 16px; position: relative; margin: 7px 0 0 0 ; text-align: left;}
+.allBox{width: 14px; height: 14px; position: absolute; top: 3px; left: 0px; margin: 0px;}
+.smoke_fac{clear: left; width: 70px; height: 55px; float: left; text-align: center; margin-bottom: 10px;}
+.smoke{width: 33px; height: 29px; vertical-align: top;}
+.pac04{width: 70px; height: 19px; padding-left: 16px;position: relative; margin: 7px 0 0 0; text-align: left;}
+.smokeBox{width: 14px; height: 14px; position: absolute; top: 3px; left: 0px; margin: 0px; padding: 0px;}
+.parking_fac{width: 70px; height: 56px; float: left; text-align: center; margin-bottom: 10px;}
+.parking{width: 30px; height: 30px; align-self: top;}
+.pac05{width: 70px; height: 19px; position: relative; margin: 1px 0 0 0; padding-left: 16px; text-align: left;}
+.comment{display: block; clear: both; width: 700px; height: 19px; padding: 30px 0 0 0; margin: 0px; }
+.parkingBox{width: 14px; height: 14px; position: absolute; top: 3px; left: 0px; margin: 0px; padding: 0px;}
+/*-- main serch section E--*/
+
+/*-- main table section S--*/
+.fieldBottom{width: 700px; height: 653px; border: none; margin: 0px; padding: 0px;display: block;}
+.tableBox{width: 700px; height: 585px; border-top: 1px solid #303030; margin: 0px; padding: 0px;} 
+.table_korea{ width: 700px;  height: 585px; table-layout: fixed; border-collapse:collapse;text-align: center ; }
+.table_korea colgroup{width: 100%; height: 100%; }
+.table_korea th{width: 700px; height: 100%; margin: 0px; ; padding: 10px 0 12px; text-align: center; color: #303030; line-height: 19px; font-weight: bolder; }
+/*-- main table section E--*/
+
+.floating{width: 89px; height: 89px; position: fixed; top: 31px; left: 50%; margin-left: 500px; z-index: 100;}
+
+/*-- main paging section S-- 오류 발생*/
+.paging{width: 700px; height: 26px; margin-top: 40px; }
+.pre{width: 26px; height: 26px;}
+/*-- main paging section E--*/
+
+/*-- footer S-- */
+footer{width: 1519px; height: 148px; min-width: 940px; padding: 33px 0 0 0; background: #ba000c; font-size: 11px; margin: 0px; display: block;} 
+.footerInner{width: 940px; height: 85px; margin: 0 auto; line-height: 14px; overflow: hidden; padding: 0px; }
+.footerLeft{width: 579px; height: 85px; float: left; margin: 0px; padding: 0px; display: block;}
+.fooer_cus, .footer_ser, .footer_mem,.footer_card, .footer_inqu, .footer_sur, .fooer_map{background: url(./image/bg_footer_bar01.gif)right 2px no-repeat;padding: 0 4px 0 4px; color: #faeff0; }
+.footerInner b {color: #faeff0; font-weight: bold; font-size: 11px; margin: auto; margin: 0px; padding: 0px; }
+.footerLeft_last{padding: 0 0 0 3px; text-align: center; }
+.hollysInfo{margin-top: 20px; color: #de898e; line-height: 16px; word-spacing: -1px;font-size: 11px; display: block; }
+.address{margin-top: 0px; color: #de898e; line-height: 16px; word-spacing: -1px; font-size: 11px; display: block; margin: 0px; padding: 0px;}
+
+
+
